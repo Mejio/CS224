@@ -1,0 +1,28 @@
+
+.container {
+  text-align: center;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+}
+
+.container img { 
+  margin-right: 10px; 
+}
+
+.circle {
+  width: 160px; 
+  height: 160px; 
+  border-radius: 50%;
+  text-align: center; 
+  margin: 30px;   
+}
+
+.circle img {
+  width: 100%;       
+  height: auto;     
+  display: block;    
+  margin: 0 auto 5px auto;
+  border-radius: 50%; 
+  overflow: hidden;  
+}
